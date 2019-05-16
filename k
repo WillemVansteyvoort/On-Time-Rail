@@ -1,0 +1,47 @@
+{ id: '0',
+  departure:
+  { delay: '0',
+    station: 'Londen Saint Pancras',
+    stationinfo:
+    { locationX: '-0.1260606',
+      locationY: '51.5310399',
+      id: 'BE.NMBS.007015400',
+      '@id': 'http://irail.be/stations/NMBS/007015400',
+      name: 'Londen Saint Pancras',
+      standardname: 'London Saint Pancras International' },
+    time: '1551456960',
+    vehicle: 'BE.NMBS.EUR9150',
+    platform: '?',
+    platforminfo: { name: '?', normal: '1' },
+    canceled: '0',
+    departureConnection: 'http://irail.be/connections/7015400/20190301/EUR9150'
+  ,
+    direction: { name: 'Amsterdam Cs (NL)' },
+    left: '0',
+    walking: '0',
+    occupancy:
+    { '@id': 'http://api.irail.be/terms/unknown', name: 'unknown' } },
+  arrival:
+  { delay: '0',
+    station: 'Brussel-Luxemburg',
+    stationinfo:
+    { locationX: '4.373674',
+      locationY: '50.838943',
+      id: 'BE.NMBS.008811304',
+      '@id': 'http://irail.be/stations/NMBS/008811304',
+      name: 'Brussel-Luxemburg',
+      standardname: 'Brussel-Luxemburg/Bruxelles-Luxembourg' },
+    time: '1551469200',
+    vehicle: 'BE.NMBS.S83970',
+    platform: '3',
+    platforminfo: { name: '3', normal: '1' },
+    canceled: '0',
+    direction: { name: 'Ottignies' },
+    arrived: '0',
+    walking: '0' },
+  duration: '8640',
+  alerts: { number: '1', alert: [ [Object] ] },
+  remarks: { number: '2', remark: [ [Object], [Object] ] },
+  vias: { number: '1', via: [ [Object] ] },
+  occupancy:
+  { '@id': 'http://api.irail.be/terms/unknown', name: 'unknown' } }
